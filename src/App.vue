@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div
+    id="app"
+    class="bg-white dark:bg-black"
+    :class="dark ? 'dark' : 'light'"
+  >
+  <Header />
+  <router-view class="font-sans p-5" />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { mapGetters } from 'vuex';
+import Header from '../src/components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Header,
+  },
+  computed: {
+      ...mapGetters(['dark'])
+    }
 }
 </script>
 
 <style>
-#app {
+.views {
+  height: 100vh;
+}
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 </style>
