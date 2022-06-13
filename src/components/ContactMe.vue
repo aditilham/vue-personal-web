@@ -1,5 +1,5 @@
 <template>
     <div>
-        Comming Soon!
+        Coming Soon!
     </div>
 </template>
