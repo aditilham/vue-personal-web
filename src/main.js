@@ -6,6 +6,7 @@ import VueClickAway from "vue3-click-away";
 
 import App from './App.vue'
 import store from './store'
+import i18n from '@/plugins/i18n'
 // import axios from 'axios'
 import router from './router'
 // import './plugins/rules'
@@ -80,6 +81,7 @@ const app = createApp(App)
 app.config.productionTip = false;
 app.use(router)
 app.use(VueClickAway)
+app.use(i18n)
 // app.use(VCalendar)
 // app.use(VueApexCharts)
 app.use(options)

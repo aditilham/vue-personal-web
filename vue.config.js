@@ -8,7 +8,7 @@ module.exports = {
     config
     .plugin('html')
     .tap(args => {
-      args[0].title = 'Adit Ilham Website'
+      args[0].title = 'Welcome to my Personal Website'
       return args
     })
   },

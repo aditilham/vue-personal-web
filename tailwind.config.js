@@ -4,7 +4,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   purge: [],
-  // darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontSize: {
       'xxs': '.5rem',
