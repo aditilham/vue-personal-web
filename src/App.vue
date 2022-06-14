@@ -5,18 +5,21 @@
     :class="dark ? 'dark' : 'light'"
   >
   <Header />
-  <router-view class="font-sans p-5 min-h-screen" />
+  <router-view class="font-sans min-h-screen" />
+  <Footer />
 </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
 import Header from '../src/components/Header.vue'
+import Footer from '../src/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
+    Footer
   },
   computed: {
       ...mapGetters(['dark'])

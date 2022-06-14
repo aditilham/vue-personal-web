@@ -4,5 +4,12 @@
         "projects": "Projects",
         "aboutMe": "About Me",
         "contactMe": "Contact Me"
+    },
+    "main": {
+        "welcoming1": "Hello! This is my personal website for professional purpose only.",
+        "welcoming2": "Including my projects, about myself and contact. Enjoy my personal website.",
+        "buttonView": "View my work",
+        "techUsedWeb": "Technology I used for this website",
+        "techUsedDev": "Technology I used for deployment"
     }
 }

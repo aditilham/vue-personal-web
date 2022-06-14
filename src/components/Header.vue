@@ -50,7 +50,7 @@
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <ul
-          :class="showMenu ? 'flex' : 'hidden'"
+          :class="showMenu ? 'flex absolute bg-gray-100 dark:bg-gray-700 w-full left-0 z-50 py-10 top-12 px-5' : 'hidden'"
           class="
             flex-col
             mt-8
@@ -84,8 +84,8 @@
             </router-link>
           </li>
           <li>
-            <div class="flex items-center text-gray-400 cursor-pointer ">
-                <select v-model="this.$i18n.locale" class="bg-gray-100 border border-gray-400 py-1 px-2 rounded-lg">
+            <div class="flex items-center text-black dark:text-gray-100 cursor-pointer ">
+                <select v-model="this.$i18n.locale" class="bg-gray-100 border dark:bg-gray-700 border-black dark:border-gray-400 py-1 px-2 rounded-lg">
                     <option value="id">ID</option>
                     <option value="en">EN</option>
                 </select>

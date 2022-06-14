@@ -4,5 +4,12 @@
         "projects": "Proyek",
         "aboutMe": "Tentang Saya",
         "contactMe": "Hubungi Saya"
+    },
+    "main": {
+        "welcoming1": "Halo! Ini adalah situs web pribadi saya untuk tujuan profesional saja.",
+        "welcoming2": "Meliputi proyek saya, tentang diri saya dan kontak. Selamat menikmati situs web pribadi saya.",
+        "buttonView": "Lihat karya saya",
+        "techUsedWeb": "Teknologi yang saya gunakan untuk membuat website ini",
+        "techUsedDev": "Teknologi yang saya gunakan untuk Deployment"
     }
 }

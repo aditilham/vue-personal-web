@@ -7,6 +7,9 @@ import VueClickAway from "vue3-click-away";
 import App from './App.vue'
 import store from './store'
 import i18n from '@/plugins/i18n'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+// import Parallax from 'vue-parallaxy'
 // import axios from 'axios'
 import router from './router'
 // import './plugins/rules'
@@ -80,8 +83,10 @@ const options = {
 const app = createApp(App)
 app.config.productionTip = false;
 app.use(router)
+app.use(AOS.init())
 app.use(VueClickAway)
 app.use(i18n)
+// app.use(Parallax)
 // app.use(VCalendar)
 // app.use(VueApexCharts)
 app.use(options)
