@@ -8,8 +8,19 @@
     "main": {
         "welcoming1": "Halo! Ini adalah situs web pribadi saya untuk tujuan profesional saja.",
         "welcoming2": "Meliputi proyek saya, tentang diri saya dan kontak. Selamat menikmati situs web pribadi saya.",
+        "greeting": "Halo, Saya Adit Ilham Nugroho. Saat ini saya sebagai Frontend Web Developer di",
+        "and": "dan",
         "buttonView": "Lihat karya saya",
-        "techUsedWeb": "Teknologi yang saya gunakan untuk membuat website ini",
+        "techUsedWeb": "Situs web ini dibangun menggunakan",
         "techUsedDev": "Teknologi yang saya gunakan untuk Deployment"
+    },
+    "contactMe": {
+        "header": "Berikut ini adalah semua Media Sosial saya!",
+        "subHeader": "Merasa bebas untuk terhubung dengan Anda",
+        "igDesc": "Saya mengabadikan momen disini",
+        "linkedinDesc": "Jika Anda ingin tau lebih terkait Karir Profesional saya",
+        "githubDesc": "Semua proyek saya ada disini, Anda bisa mengeceknya",
+        "whatsappDesc": "Tetap berhubungan dengan saya untuk kebutuhan apa pun",
+        "steamDesc": "Jika anda butuh teman bermain Dota 2"
     }
 }

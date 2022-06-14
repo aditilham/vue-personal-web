@@ -5,10 +5,24 @@
                 <lottie-player v-if="!dark" src="https://assets2.lottiefiles.com/packages/lf20_M9p23l.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                 <lottie-player v-if="dark" src="https://assets2.lottiefiles.com/packages/lf20_M9p23l.json"  background="rgba(107, 114, 128)"  speed="1"  loop  autoplay></lottie-player>
             </div>
-            <h2 class="text-xl px-5 py-20 border border-gray-400 dark:border-gray-100 rounded-lg" data-aos="fade-up" data-aos-duration="2000">
-                {{ $t('main.welcoming1') }}
+            <h2 class="text-md md:text-xl px-5 py-20 border border-gray-400 dark:border-gray-100 rounded-lg flex justify-center flex-wrap" data-aos="fade-up" data-aos-duration="2000">
+                {{ $t('main.greeting') }}
+                <a href="https://langitpayment.com/" target="_blank">
+                    <div class="font-semibold transition duration-500 ease-in-out transform hover:scale-105 px-1">
+                        <span class="text-primary-darkblue-lp font-lp">Langit</span><span class="text-primary-softblue-lp">Pay</span>
+                    </div>
+                </a>
+                {{ $t('main.and') }}
+                <a href="https://rebahan.id/" target="_blank">
+                    <img class='w-20 md:w-24 inline ml-1 mr-1 mb-3 transition duration-500 ease-in-out transform hover:scale-105' src="https://cdn02.rebahan.id/upload/w_1200,h_800,q_100/https://cdn01.rebahan.id/assets/rebahan-admin/logo-rebahan-ver.png" alt="Rebahan" title="Rebahan">
+                </a>
+                <!-- <br />
+                I have finished Full Stack Web Course on Impact Byte and I'm eager to work as a Frontend Web Developer.
                 <br />
-                {{ $t('main.welcoming2') }}
+                I'm experience at using JavaScript as my primary programming language and also at VueJS, Nuxt Js, React Native, Angular JS, Node.js, React, Redux, HTML, CSS styling system (such as reactstrap, antd, etc.), Express, MySql, Netlify, Heroku, and Git source control on Github. -->
+                <!-- {{ $t('main.welcoming1') }}
+                <br />
+                {{ $t('main.welcoming2') }} -->
             </h2>
         </div>
         <div class="w-full flex justify-center py-10 items-center" data-aos="fade-up" data-aos-duration="2000">
@@ -25,7 +39,7 @@
         </div>
         <div class="w-full flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5" data-aos="fade-up" data-aos-duration="2000">
             <div class="w-full md:w-6/12 border border-gray-400 shadow-md dark:border-gray-100 rounded-lg p-10 flex flex-col items-center space-y-5">
-                <span class="text-center">
+                <span class="text-center text-lg">
                     {{ $t('main.techUsedWeb') }}
                 </span>
                 <div>
@@ -45,9 +59,18 @@
                         </svg>
                     </a>
                 </div>
+                <div>
+                    <a class="flex space-x-1 transition duration-500 ease-in-out transform hover:scale-110 items-center" href="https://lottiefiles.com/" target="_blank">
+                        <svg width="30" height="30" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M119.517 0H40.4831C18.1246 0 0 18.125 0 40.4835V119.517C0 141.875 18.1246 160 40.4831 160H119.517C141.875 160 160 141.875 160 119.517V40.4835C160 18.125 141.875 0 119.517 0Z" fill="#00DDB3"/>
+                            <path d="M121.615 35.8364C94.0729 35.8364 83.8559 55.5013 75.6603 71.2992L70.2992 81.4064C61.5983 98.1601 55.1058 108.344 38.3851 108.344C36.2872 108.344 34.2751 109.177 32.7917 110.661C31.3083 112.144 30.4749 114.156 30.4749 116.254C30.4749 118.352 31.3083 120.364 32.7917 121.847C34.2751 123.331 36.2872 124.164 38.3851 124.164C65.927 124.164 76.1441 104.499 84.3397 88.6901L89.7007 78.5939C98.4016 61.8402 104.883 51.6562 121.615 51.6562C123.713 51.6562 125.725 50.8229 127.208 49.3395C128.692 47.8561 129.525 45.8442 129.525 43.7463C129.525 41.6485 128.692 39.6365 127.208 38.1531C125.725 36.6697 123.713 35.8364 121.615 35.8364Z" fill="white"/>
+                        </svg>
+                        <span class="text-lg font-medium">LottieFiles</span>
+                    </a>
+                </div>
             </div>
            <div class="w-full md:w-6/12 border border-gray-400 shadow-md dark:border-gray-100 rounded-lg p-10 flex flex-col items-center space-y-5">
-                <span class="text-center">
+                <span class="text-center text-lg">
                     {{ $t('main.techUsedDev') }}
                 </span>
                 <div>

@@ -8,8 +8,19 @@
     "main": {
         "welcoming1": "Hello! This is my personal website for professional purpose only.",
         "welcoming2": "Including my projects, about myself and contact. Enjoy my personal website.",
+        "greeting": "Hello, I'm Adit Ilham Nugroho. Currently I'm a Frontend Web Developer at",
+        "and": "and",
         "buttonView": "View my work",
-        "techUsedWeb": "Technology I used for this website",
+        "techUsedWeb": "This website built using",
         "techUsedDev": "Technology I used for deployment"
+    },
+    "contactMe": {
+        "header": "Here all my Social Media!",
+        "subHeader": "Feel free to be connected with you",
+        "igDesc": "I'm capture any moment here",
+        "linkedinDesc": "If you want to know more about my professional career",
+        "githubDesc": "All my projects are here, you can check it out",
+        "whatsappDesc": "Keep in touch with me for anything needs",
+        "steamDesc": "If you need party to play Dota 2"
     }
 }
