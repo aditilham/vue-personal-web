@@ -4,6 +4,9 @@
 // })
 // vue.config.js
 module.exports = {
+  devServer: {
+    proxy: 'http://localhost:4000'
+  },
   chainWebpack: config => {
     config
     .plugin('html')
@@ -13,5 +16,5 @@ module.exports = {
       return args
     })
   },
-  publicPath: '/'
+  publicPath: '/',
 }

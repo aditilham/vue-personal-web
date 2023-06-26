@@ -5,7 +5,7 @@
     :class="dark ? 'dark' : 'light'"
   >
   <Header />
-  <router-view class="font-sans min-h-screen" />
+  <router-view class="font-sans" />
   <Footer />
 </div>
 </template>

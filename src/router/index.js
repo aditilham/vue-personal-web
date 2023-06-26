@@ -4,6 +4,7 @@ import Main from '../components/Main.vue'
 import AboutMe from '../components/AboutMe.vue'
 import ContactMe from '../components/ContactMe.vue'
 import Projects from '../components/Projects.vue'
+import BionicTest from '../components/BionicTest.vue'
 
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
         path: '/projects',
         name: 'Projects',
         component: Projects,
+    },
+    {
+        path: '/bionic-test',
+        name: 'Bionic',
+        component: BionicTest
     },
     {
         path: '/:catchAll(.*)',

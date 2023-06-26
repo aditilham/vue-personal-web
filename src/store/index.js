@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-
+import BionicService from './modules/BionicService.js'
 
 
 export const state = () => ({
@@ -19,4 +19,7 @@ export default new createStore({
     state,
     getters,
     mutations,
+    modules: {
+        BionicService
+    }
 });
